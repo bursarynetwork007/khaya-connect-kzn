@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, Lock, HeartHandshake, Award } from "lucide-react";
+import { ShieldCheck, Lock, HeartHandshake, Award, Instagram, Facebook } from "lucide-react";
 export const Footer = () => {
   return <footer className="bg-foreground text-background py-12" role="contentinfo">
       <div className="container">
@@ -40,11 +40,13 @@ export const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Project Khaya</h3>
             <p className="text-sm leading-relaxed text-background/80 mb-4">Building community, one home at a time. Your trusted marketplace connecting homeowners, workers, and suppliers across KZN.</p>
-            <div className="space-y-2 text-sm">
-              <p className="flex items-start gap-2">
-                <span className="font-semibold">Hours:</span>
-                <span className="text-background/80">Mon-Thu: 8:30-17:00<br />Fri: 8:30-16:00 | Sat: 9:00-12:00</span>
-              </p>
+            <div className="flex gap-4 mt-4">
+              <a href="https://www.instagram.com/projectkhaya" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="Follow us on Instagram">
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a href="https://www.facebook.com/projectkhaya" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="Follow us on Facebook">
+                <Facebook className="w-6 h-6" />
+              </a>
             </div>
           </div>
           <div>
