@@ -46,32 +46,53 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="font-bold text-lg mb-4">Project Khaya</h3>
-            <p className="text-sm leading-relaxed text-background/80">
+            <p className="text-sm leading-relaxed text-background/80 mb-4">
               Building community, one job at a time. Your trusted marketplace connecting homeowners, workers, and suppliers across KZN.
             </p>
+            <div className="space-y-2 text-sm">
+              <p className="flex items-start gap-2">
+                <span className="font-semibold">Hours:</span>
+                <span className="text-background/80">Mon-Thu: 8:30-17:00<br />Fri: 8:30-16:00 | Sat: 9:00-12:00</span>
+              </p>
+            </div>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">For Homeowners</h4>
+            <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-primary transition-colors">Post a Job</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">How It Works</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Browse Services</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-4">For Professionals</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-primary transition-colors">Find Jobs</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Sign Up</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Success Stories</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Careers</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Support</h4>
+            <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-primary transition-colors">Help Center</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Trust & Safety</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contact Us</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Dispute Resolution</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-4">Contact Us</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="mailto:Amanda@projectkhaya.co.za" className="hover:text-primary transition-colors">
+                  Amanda@projectkhaya.co.za
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/27814943255" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  WhatsApp: +27 81 494 3255
+                </a>
+              </li>
+              <li className="pt-2 text-background/80">
+                Servicing Estcourt & KZN
+              </li>
+              <li className="text-background/80">
+                Call ahead for appointments
+              </li>
             </ul>
           </div>
         </div>
