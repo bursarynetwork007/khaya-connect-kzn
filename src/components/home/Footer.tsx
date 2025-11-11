@@ -39,7 +39,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="font-bold text-lg mb-4">Project Khaya</h3>
-            <p className="text-sm leading-relaxed text-background/80 mb-4">Building community, one homeowner at a time. Your trusted marketplace connecting homeowners, workers, and suppliers across KZN.</p>
+            <p className="text-sm leading-relaxed text-background/80 mb-4">Building community, one home at a time. Your trusted marketplace connecting homeowners, workers, and suppliers across KZN.</p>
             <div className="space-y-2 text-sm">
               <p className="flex items-start gap-2">
                 <span className="font-semibold">Hours:</span>
