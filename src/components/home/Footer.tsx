@@ -1,20 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { ShieldCheck, Lock, HeartHandshake, Award } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer className="bg-foreground text-background py-12" role="contentinfo">
+  return <footer className="bg-foreground text-background py-12" role="contentinfo">
       <div className="container">
         <div className="border-b border-background/20 pb-8 mb-8 text-center">
           <h4 className="font-semibold mb-4">Stay in the Loop</h4>
           <p className="text-sm mb-4 text-background/80">Get tips on home projects and new job alerts in KZN.</p>
           <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 bg-background/10 border border-background/20 rounded-lg text-background placeholder-background/50 focus:outline-none focus:border-primary"
-              aria-label="Email for newsletter signup"
-            />
+            <input type="email" placeholder="Enter your email" className="flex-1 px-4 py-3 bg-background/10 border border-background/20 rounded-lg text-background placeholder-background/50 focus:outline-none focus:border-primary" aria-label="Email for newsletter signup" />
             <Button className="px-6">Subscribe</Button>
           </div>
         </div>
@@ -46,9 +39,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="font-bold text-lg mb-4">Project Khaya</h3>
-            <p className="text-sm leading-relaxed text-background/80 mb-4">
-              Building community, one job at a time. Your trusted marketplace connecting homeowners, workers, and suppliers across KZN.
-            </p>
+            <p className="text-sm leading-relaxed text-background/80 mb-4">Building community, one homeowner at a time. Your trusted marketplace connecting homeowners, workers, and suppliers across KZN.</p>
             <div className="space-y-2 text-sm">
               <p className="flex items-start gap-2">
                 <span className="font-semibold">Hours:</span>
@@ -100,6 +91,5 @@ export const Footer = () => {
           <p className="text-background/80">&copy; 2025 Project Khaya. All rights reserved. | Ubuntu ngumuntu ngabantu - A person is a person through other people</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
